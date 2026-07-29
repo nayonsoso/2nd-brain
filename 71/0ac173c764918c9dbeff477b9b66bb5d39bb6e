@@ -1,0 +1,61 @@
+"card html.md"
+  s_5274ed6e328c13::t_931bfe5db7567c 1-7
+"🌷 personal/Diary/20260707 왜 나는 내게 주어진 기회의 100%를 활용하지 못하는가.md"
+  s_5274ed6e328c13::t_c9835fb789685c 1-21
+"🌷 personal/Diary/20260708 여러가지 생각이 든다.md"
+  s_5274ed6e328c13::t_995288931e8ef9 1-33
+"🧠 brain/API/10-request-response-design.md"
+  s_0e376f8d2bfa93::t_6d89edb6423aff 1-177
+"🧠 brain/API/11-api-versioning.md"
+  s_0e376f8d2bfa93::t_84128c53c67cc3 1-104
+"🧠 brain/API/12-api-authentication-and-security.md"
+  s_0e376f8d2bfa93::t_d3013a22593997 1-125
+"🧠 brain/API/13-api-performance.md"
+  s_0e376f8d2bfa93::t_c4f7013bce35a3 1-128
+"🧠 brain/API/14-rest-api-best-practices.md"
+  s_0e376f8d2bfa93::t_a7a16906945b09 1-125
+"🧠 brain/API/15-api-design-examples.md"
+  s_0e376f8d2bfa93::t_408c4e5237697a 1-170
+"🧠 brain/API/16-api-code-review-assignments.md"
+  s_0e376f8d2bfa93::t_53dbb185cbfed6 1-170
+"🧠 brain/API/2-types-of-api.md"
+  s_0e376f8d2bfa93::t_7fb4e953d7d366 1-73
+"🧠 brain/API/3-rest-api.md"
+  s_0e376f8d2bfa93::t_0cbabc8c1f2a6f 1-168
+"🧠 brain/API/9-idempotency-and-safety.md"
+  s_0e376f8d2bfa93::t_a5cc998f9914f2 1-133
+"🧠 brain/HTTP/http-and-rest.md"
+  s_5274ed6e328c13::t_538e5399949b7a 1-72
+"🧠 brain/HTTP/http-headers.md"
+  s_5274ed6e328c13::t_197aace96515a3 1-88
+"🧠 brain/HTTP/http-versions.md"
+  s_5274ed6e328c13::t_80c4ecca26fcb5 1-68
+"🧠 brain/HTTP/http-vs-https.md"
+  s_5274ed6e328c13::t_c4c8af6c5e2958 1-53
+"🧠 brain/HTTP/what-is-http.md"
+  s_5274ed6e328c13::t_a8693c976343d6 1-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "710ac173c764918c9dbeff477b9b66bb5d39bb6e",
+  "prompts": {},
+  "sessions": {
+    "s_0e376f8d2bfa93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "101f94ac-7d42-45e6-8711-931dd50d7d51",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "yeong-seo-na <yeongseo.na@deliveryhero.com>"
+    },
+    "s_5274ed6e328c13": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37cdc908-1b69-40f9-88a3-d83d6a564157",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "yeong-seo-na <yeongseo.na@deliveryhero.com>"
+    }
+  }
+}
