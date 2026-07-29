@@ -45,7 +45,7 @@ It is where DDD meets ports and adapters: the repository is a port.
 ---
 ## Related Notes
 
-- [[10-domain-driven-design]] — the methodology these serve
+- [[11-domain-driven-design]] — the methodology these serve
 - [[5-ports-and-adapters]] — the Repository as a port
 - [[4-domain-vs-infrastructure]] — these objects live in the domain
 

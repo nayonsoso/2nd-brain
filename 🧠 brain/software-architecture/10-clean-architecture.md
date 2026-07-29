@@ -63,10 +63,11 @@ It only depends on an abstraction it owns.
 ---
 ## Related Notes
 
-- [[8-hexagonal-architecture]] — the close cousin
+- [[9-hexagonal-architecture]] — the close cousin
+- [[6-use-case]] — what the "Use Cases" circle is
 - [[2-solid-principles]] — DIP enforces the dependency rule
-- [[11-ddd-building-blocks]] — what lives in the entity core
-- [[12-tradeoffs-and-choosing]] — the cost of this strictness
+- [[12-ddd-building-blocks]] — what lives in the entity core
+- [[13-tradeoffs-and-choosing]] — the cost of this strictness
 
 ## Review History
 

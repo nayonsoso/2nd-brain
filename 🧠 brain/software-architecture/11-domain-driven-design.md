@@ -33,8 +33,8 @@ They work together.
 ## Related Notes
 
 - [[4-domain-vs-infrastructure]] — the domain idea this builds on
-- [[11-ddd-building-blocks]] — the tactical objects of DDD
-- [[9-clean-architecture]] — the shell DDD fills
+- [[12-ddd-building-blocks]] — the tactical objects of DDD
+- [[10-clean-architecture]] — the shell DDD fills
 
 ## Review History
 

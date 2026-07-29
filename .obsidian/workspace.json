@@ -11,15 +11,14 @@
             "id": "60ce7378206876b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "🧠 brain/software-architecture/2-solid-principles.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "2-solid-principles"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           },
           {
@@ -60,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -69,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "use cause",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "검색"
             }
           },
           {
@@ -182,28 +181,39 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false,
       "obsidian-git:Open Git source control": false,
       "callout-manager:Insert Callout": false,
+      "obsidian-kanban:새 보드 만들기": false,
       "webpage-html-export:Export as HTML": false
     }
   },
   "active": "60ce7378206876b8",
   "lastOpenFiles": [
-    "🧠 brain/software-architecture/1-core-design-principles.md",
+    "🧠 brain/software-architecture/5-ports-and-adapters.md",
+    "🧠 brain/software-architecture/6-use-case.md",
+    "🧠 brain/software-architecture/6-use-case.md.tmp.1437.7b4a25a9335b",
+    "🧠 brain/software-architecture/7-dto-and-mappers.md",
+    "🧠 brain/software-architecture/8-layered-architecture.md",
+    "🧠 brain/software-architecture/9-hexagonal-architecture.md",
+    "🧠 brain/software-architecture/10-clean-architecture.md",
+    "🧠 brain/software-architecture/11-domain-driven-design.md",
+    "🧠 brain/software-architecture/12-ddd-building-blocks.md",
+    "🧠 brain/software-architecture/13-tradeoffs-and-choosing.md",
+    "🧠 brain/software-architecture/4-domain-vs-infrastructure.md",
+    "🧠 brain/software-architecture/3-dependency-injection.md",
     "🧠 brain/software-architecture/2-solid-principles.md",
+    "🧠 brain/software-architecture/1-core-design-principles.md",
     "docs/superpowers/plans/2026-07-29-software-architecture-notes.md",
     "docs/superpowers/specs/2026-07-29-pricing-tool-audit-findings.md",
     "🧠 brain/software-architecture/12-tradeoffs-and-choosing.md",
@@ -213,31 +223,19 @@
     "🧠 brain/software-architecture/9-clean-architecture.md",
     "🧠 brain/software-architecture/7-layered-architecture.md",
     "🧠 brain/software-architecture/6-dto-and-mappers.md",
-    "🧠 brain/software-architecture/5-ports-and-adapters.md",
-    "🧠 brain/software-architecture/3-dependency-injection.md",
-    "🧠 brain/software-architecture/4-domain-vs-infrastructure.md",
     "docs/superpowers/specs/2026-07-29-software-architecture-notes-design.md",
     "🧠 brain/API/7-http-4xx-status-codes.md",
     "🧠 brain/API/6-http-3xx-status-codes.md",
     "🧠 brain/API/3-rest-api.md",
-    "🧠 brain/HTTP/http-and-rest.md",
-    "CLAUDE.md",
-    "🧠 brain/HTTP/http-vs-https.md",
-    "🐟 reference/pricing-tool/Error Handling.md",
-    "🐟 reference/pricing-tool/Architecture.md",
     "docs/superpowers/plans",
-    "🐟 reference/pricing-tool/API Design & REST Principles.md",
     "docs/superpowers/specs",
     "docs/superpowers",
     "docs",
-    "🧠 brain/Untitled.md",
     "🧠 brain/software-architecture",
-    "🧠 brain/API/9-idempotency-and-safety.md",
     "Articles.base",
     "API",
     "🧠 brain",
     "🌷 personal",
-    "🐟 reference/pricing-tool",
     "Untitled.canvas",
     "🐟 reference/images/Pasted image 20260102162419.png",
     "🐟 reference/images/Pasted image 20260102162335.png",

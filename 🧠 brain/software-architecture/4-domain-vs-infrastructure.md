@@ -32,16 +32,15 @@ If your domain is pure, you can swap MySQL for PostgreSQL with no risk to the ru
 ## The Foundation Of DDD
 
 This "keep the domain pure" idea is the basic foundation of ==Domain-Driven Design==.
-You learn it early, before the full DDD notes.
 Every DDD pattern builds on this separation.
 
 ---
 ## Related Notes
 
 - [[5-ports-and-adapters]] — how the domain talks to infrastructure
-- [[8-hexagonal-architecture]] — domain in the center, infra outside
-- [[10-domain-driven-design]] — modeling the domain in depth
+- [[9-hexagonal-architecture]] — domain in the center, infra outside
+- [[11-domain-driven-design]] — modeling the domain in depth
 
 ## Review History
 
--
+- 2026-07-29

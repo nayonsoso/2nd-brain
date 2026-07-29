@@ -53,7 +53,7 @@ The `PostgresOrderRepository` adapter lives outside the core and implements it.
 - [[2-solid-principles]] — DIP, the mechanism behind it
 - [[5-ports-and-adapters]] — the building blocks
 - [[4-domain-vs-infrastructure]] — what goes inside vs outside
-- [[9-clean-architecture]] — the same idea, generalized
+- [[10-clean-architecture]] — the same idea, generalized
 
 ## Review History
 

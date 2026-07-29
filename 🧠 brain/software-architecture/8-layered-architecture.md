@@ -47,9 +47,9 @@ The database depends on the business code instead.
 ## Related Notes
 
 - [[1-core-design-principles]] — the separation this pattern applies
-- [[8-hexagonal-architecture]] — the fix for the coupling trap
-- [[9-clean-architecture]] — a stricter fix
-- [[12-tradeoffs-and-choosing]] — when layered is enough
+- [[9-hexagonal-architecture]] — the fix for the coupling trap
+- [[10-clean-architecture]] — a stricter fix
+- [[13-tradeoffs-and-choosing]] — when layered is enough
 
 ## Review History
 

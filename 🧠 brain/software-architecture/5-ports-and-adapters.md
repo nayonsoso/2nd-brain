@@ -57,8 +57,9 @@ To switch payment providers, you only replace the adapter.
 ## Related Notes
 
 - [[3-dependency-injection]] — how the adapter is supplied to the core
-- [[6-dto-and-mappers]] — how data crossing a port is shaped
-- [[8-hexagonal-architecture]] — the pattern built on ports and adapters
+- [[6-use-case]] — what sits behind an inbound port
+- [[7-dto-and-mappers]] — how data crossing a port is shaped
+- [[9-hexagonal-architecture]] — the pattern built on ports and adapters
 
 ## Review History
 

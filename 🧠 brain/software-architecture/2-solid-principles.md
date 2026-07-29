@@ -53,9 +53,9 @@ DIP tells you *what* to do. DI is one *way* to do it.
 
 - [[1-core-design-principles]] — the higher-level goals SOLID serves
 - [[3-dependency-injection]] — the technique that realizes DIP
-- [[8-hexagonal-architecture]] — DIP applied to isolate the core
-- [[9-clean-architecture]] — DIP as the dependency rule
+- [[9-hexagonal-architecture]] — DIP applied to isolate the core
+- [[10-clean-architecture]] — DIP as the dependency rule
 
 ## Review History
 
--
+- 2026-07-29

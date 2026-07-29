@@ -40,10 +40,10 @@ Choose on purpose. Know what you gain and what you give up.
 ---
 ## Related Notes
 
-- [[7-layered-architecture]] — the cheaper default
-- [[8-hexagonal-architecture]] — cost vs isolation
-- [[9-clean-architecture]] — cost vs strictness
-- [[10-domain-driven-design]] — worth it only for rich domains
+- [[8-layered-architecture]] — the cheaper default
+- [[9-hexagonal-architecture]] — cost vs isolation
+- [[10-clean-architecture]] — cost vs strictness
+- [[11-domain-driven-design]] — worth it only for rich domains
 
 ## Review History
 

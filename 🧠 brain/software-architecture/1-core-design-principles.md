@@ -38,7 +38,7 @@ Each pattern you learn is a different way to reach this same goal.
 
 - [[2-solid-principles]] — the object-level rules that support these goals
 - [[4-domain-vs-infrastructure]] — the first big separation to make
-- [[7-layered-architecture]] — the most common way to separate concerns
+- [[8-layered-architecture]] — the most common way to separate concerns
 
 ## Review History
 
