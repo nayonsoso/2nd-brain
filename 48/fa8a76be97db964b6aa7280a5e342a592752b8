@@ -1,0 +1,20 @@
+"🧠 brain/API/6-http-3xx-status-codes.md"
+  s_0e376f8d2bfa93::t_8b0efff327eac9 5,7-8,16-26,28,30-31,35,37-38,42,44-45,47-48,50-52,58,66-71,73-78,86,88-90,92-93,95-103
+  s_0e376f8d2bfa93::t_fd248dbeb63799 104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "48fa8a76be97db964b6aa7280a5e342a592752b8",
+  "prompts": {},
+  "sessions": {
+    "s_0e376f8d2bfa93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "101f94ac-7d42-45e6-8711-931dd50d7d51",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "yeong-seo-na <yeongseo.na@deliveryhero.com>"
+    }
+  }
+}
