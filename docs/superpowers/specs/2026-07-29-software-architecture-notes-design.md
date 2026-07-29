@@ -2,6 +2,16 @@
 
 _Date: 2026-07-29_
 
+This spec has **two deliverables**:
+
+1. A fine-grained set of study notes on software architecture (`🧠 brain/software-architecture/`).
+2. A real-codebase architecture writeup of the pricing-tool project
+   (`🐟 reference/pricing-tool/Architecture.md`).
+
+---
+
+# Deliverable 1 — software-architecture study notes
+
 ## Goal
 
 Create a fine-grained set of study notes on software architecture in the
@@ -208,7 +218,7 @@ Principles → vocabulary → structural patterns → DDD → judgment.
 - Layered (#7) links forward to #8/#9 as "the fix" for its coupling trap.
 - Tradeoffs (#12) links back to all four patterns.
 
-## Out of scope
+## Out of scope (Deliverable 1)
 
 - No separate "testing strategy by layer" file (a short DI/testing callout lives in
   #3 instead).
@@ -216,10 +226,91 @@ Principles → vocabulary → structural patterns → DDD → judgment.
 - No intro/index file (the folder relies on numbered order, like the API folder).
 - `personal/` and `reference/` rules do not apply here; these are `brain/` notes.
 
-## Definition of done
+## Definition of done (Deliverable 1)
 
 - 12 files created in `🧠 brain/software-architecture/`, numbered 1–12.
 - Each file follows all format rules above (tags, `---` placement, highlights,
   Related Notes, Review History).
 - All wikilinks resolve to real filenames in the list.
 - Go examples compile-plausibly (syntactically sane), small, and illustrative.
+
+---
+
+# Deliverable 2 — pricing-tool Architecture.md
+
+## Goal
+
+Fill the currently empty `🐟 reference/pricing-tool/Architecture.md` with a clear
+writeup of the pricing-tool project's architecture. Explain how the project keeps
+its architecture clean, and give a **thorough, evidence-based audit** of ways to
+maintain it better.
+
+## Source
+
+- Read-only reference codebase: `/Users/yeongseo.na/IdeaProjects/pricing-tool`
+  (Go module `pricing-tool`).
+- Do **not** modify the pricing-tool project. Only read it and write the Obsidian note.
+
+## Format rules (reference path)
+
+- This file lives under `🐟 reference/`, so the `brain/` rules do **not** apply:
+  no level/status tags, no numbering, no `## Review History` section.
+- Still use Obsidian conventions: `==highlight==` for key terms, wikilinks to the
+  sibling notes `[[API Design & REST Principles]]` and `[[Error Handling]]`.
+- Clear, simple English. Richer prose than the brain notes is fine.
+- Include at least one ASCII layer/dependency diagram.
+
+## What the codebase looks like (confirmed during exploration)
+
+A DDD-flavored layered / Clean-influenced Go service. Key layers:
+
+- `cmd/server/*` — multiple entry-point binaries (server, crons, pollers, inbound).
+- `internal/interface/` — inbound adapters: `controller`, `design` (goa design-first),
+  `jwtauthorizer`, `errorhandler`.
+- `internal/service/` + `internal/serviceutils/` — the use-case layer (100+ services).
+- `internal/domain/` — core: `entity`, `aggregate`, `error`, `repository` (ports).
+- `internal/bigquery/`, `internal/pubsub/`, `internal/pkg/*manager` — outbound infra
+  adapters (DB, Kafka, PubSub, BigQuery, buckets, etc.).
+- `gen/` — goa-generated code. `.mockery.yml` — interface mocking for tests.
+- Confirmed: `internal/domain/repository/item/repository.go` defines
+  `type TransactionalGorm interface` (a port), but the gorm implementation files
+  (`batch_upsert.go`, `list.go`, `delete.go`, …) live in the **same** domain package.
+
+## Content outline
+
+1. **What the product is** — pricing-experiments tool for pricing managers (from README).
+2. **The big picture** — the layered / DDD / Clean-influenced design, with an ASCII
+   diagram showing layers and dependency direction (inbound → use case → domain ←
+   outbound adapters; gen as generated glue).
+3. **How it keeps the architecture clean** — grounded in real files, e.g.:
+   - Repository interfaces as ==ports==; mockery-generated mocks for testability.
+   - goa ==design-first== API definition in `internal/interface/design`.
+   - `internal/` package boundary enforced by the Go compiler.
+   - Separation of domain / service / interface / infra.
+   - Cross-cutting helpers: `transactioner`, `ctxvalues`, `pkg/*manager`.
+   - Link relevant points to `[[API Design & REST Principles]]` and `[[Error Handling]]`.
+4. **Suggested improvements — thorough audit.** Sweep the codebase for architecture
+   smells and list findings. Each finding must be **tied to specific files/packages**
+   with a concrete fix, not generic advice. Areas to examine:
+   - Layering violations (infra concerns leaking into `domain`). Confirmed starting
+     point: gorm implementations inside `internal/domain/repository/*` — consider
+     moving them to an infra/adapter package so `domain` stays gorm-free.
+   - God packages / oversized packages (e.g. the very large `internal/service` and
+     `internal/domain/repository/item`); whether responsibilities should be split.
+   - Naming consistency (`service` vs `serviceutils`, `handle*` services, `manager`
+     suffixes) and whether boundaries are clear.
+   - Testability gaps: where interfaces/mocks are missing and code depends on
+     concretes.
+   - Dependency-direction checks: does anything inner import something outer?
+   - Duplicated/parallel implementations (e.g. `masterproduct` vs `masterproductv2`,
+     `update_final_item_role.go` vs `update_final_item_role2.go`).
+   - Group findings by theme, and note severity (high / medium / low).
+
+## Definition of done (Deliverable 2)
+
+- `🐟 reference/pricing-tool/Architecture.md` filled with the four sections above.
+- Every "how it stays clean" and "improvement" claim cites concrete files/packages
+  from the real codebase (no hand-wavy generic advice).
+- At least one ASCII architecture diagram is included.
+- Obsidian conventions used; sibling reference notes wikilinked.
+- The pricing-tool project itself is left unmodified.
