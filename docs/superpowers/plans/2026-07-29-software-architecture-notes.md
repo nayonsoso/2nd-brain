@@ -30,6 +30,9 @@ Every Deliverable 1 file MUST follow this exact skeleton:
 
 <intro paragraph and/or first ## section — NO `---` before the first ## >
 
+## <First Section>
+<content>
+
 ---
 ## <Next Section>
 <sentences on consecutive lines, no blank line between sentences in a paragraph>
