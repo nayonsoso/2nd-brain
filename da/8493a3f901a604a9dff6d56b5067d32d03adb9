@@ -1,0 +1,19 @@
+"🧠 brain/software-architecture/7-layered-architecture.md"
+  s_89c366b68f6a1e::t_1b1f28ccf36b48 1-56
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "da8493a3f901a604a9dff6d56b5067d32d03adb9",
+  "prompts": {},
+  "sessions": {
+    "s_89c366b68f6a1e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2d4f3e57-1492-4ba2-b8ea-77e1484bc5b4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "yeong-seo-na <yeongseo.na@deliveryhero.com>"
+    }
+  }
+}
