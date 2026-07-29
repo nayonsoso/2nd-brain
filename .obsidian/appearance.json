@@ -1,0 +1,15 @@
+{
+  "enabledCssSnippets": [
+    "panda-syntax-dark",
+    "card"
+  ],
+  "baseFontSize": 18,
+  "cssTheme": "Minimal",
+  "showRibbon": true,
+  "nativeMenus": true,
+  "translucency": false,
+  "baseFontSizeAction": true,
+  "showViewHeader": true,
+  "theme": "moonstone",
+  "accentColor": ""
+}

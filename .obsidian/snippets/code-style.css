@@ -1,0 +1,122 @@
+/************************************************************
+ * Obsidian unified code style — Dracula theme
+ * Works in both Reading (Prism) & Live Preview (CodeMirror 6)
+ * Includes background fix, corner bleed fix, and color sync
+ ************************************************************/
+
+/* ===== 공통 색상 변수 ===== */
+:root {
+  --code-bg: #282a36;
+  --code-fg: #f8f8f2;
+  --code-kw: #ff79c6;   /* keyword / operator */
+  --code-op: #ff79c6;
+  --code-str: #f1fa8c;
+  --code-num: #bd93f9;
+  --code-cmt: #6272a4;
+  --code-fn:  #50fa7b;
+  --code-var: #8be9fd;
+  --code-punc:#f8f8f2;
+}
+
+/* =========================================================
+   1) Reading mode (미리보기)
+   ========================================================= */
+
+/* pre 컨테이너에 배경과 모서리, overflow 처리 */
+.markdown-rendered pre,
+.markdown-preview-view pre {
+  background: var(--code-bg) !important;
+  color: var(--code-fg) !important;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 0 1em;
+}
+
+/* code 요소는 배경 투명 + 패딩 */
+.markdown-rendered pre code,
+.markdown-preview-view pre code {
+  background: transparent !important;
+  display: block;
+  padding: 12px 14px;
+  line-height: 1.6;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* Prism 토큰 색상 */
+.markdown-rendered .token.comment { color: var(--code-cmt) !important; font-style: italic; }
+.markdown-rendered .token.string  { color: var(--code-str) !important; }
+.markdown-rendered .token.number  { color: var(--code-num) !important; }
+.markdown-rendered .token.keyword { color: var(--code-kw) !important; }
+.markdown-rendered .token.operator{ color: var(--code-op) !important; }
+.markdown-rendered .token.function,
+.markdown-rendered .token.function-variable,
+.markdown-rendered .token.def    { color: var(--code-fn) !important; }
+.markdown-rendered .token.variable,
+.markdown-rendered .token.symbol,
+.markdown-rendered .token.attr-name,
+.markdown-rendered .token.property { color: var(--code-var) !important; }
+.markdown-rendered .token.punctuation,
+.markdown-rendered .token.brace,
+.markdown-rendered .token.bracket { color: var(--code-punc) !important; }
+
+/* highlight.js 플러그인 대비 폴백 */
+.markdown-rendered pre code .hljs-comment { color: var(--code-cmt); font-style: italic; }
+.markdown-rendered pre code .hljs-string  { color: var(--code-str); }
+.markdown-rendered pre code .hljs-number  { color: var(--code-num); }
+.markdown-rendered pre code .hljs-keyword { color: var(--code-kw); }
+.markdown-rendered pre code .hljs-operator{ color: var(--code-op); }
+.markdown-rendered pre code .hljs-title,
+.markdown-rendered pre code .hljs-name,
+.markdown-rendered pre code .hljs-function { color: var(--code-fn); }
+.markdown-rendered pre code .hljs-variable,
+.markdown-rendered pre code .hljs-attr,
+.markdown-rendered pre code .hljs-attribute,
+.markdown-rendered pre code .hljs-property { color: var(--code-var); }
+.markdown-rendered pre code .hljs-punctuation { color: var(--code-punc); }
+
+/* =========================================================
+   2) Live Preview (편집 모드, CodeMirror 6)
+   ========================================================= */
+
+/* 코드블록 래퍼 배경/모서리/overflow */
+.markdown-source-view.mod-cm6 .code-block {
+  background: var(--code-bg) !important;
+  color: var(--code-fg) !important;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 내부 pre/code는 투명 */
+.markdown-source-view.mod-cm6 .code-block pre,
+.markdown-source-view.mod-cm6 .code-block code {
+  background: transparent !important;
+}
+
+/* 각 코드 줄 패딩 및 글자색 */
+.markdown-source-view.mod-cm6 .code-block .cm-line {
+  background: transparent !important;
+  padding: 0 14px;
+  line-height: 1.6;
+  color: var(--code-fg) !important;
+}
+
+/* 거터(라인번호 영역) */
+.markdown-source-view.mod-cm6 .cm-gutters {
+  background: var(--code-bg) !important;
+  color: #9aa0a6;
+  border: none;
+}
+
+/* CodeMirror 토큰 색상 (프리뷰와 통일) */
+.cm-editor .cm-comment { color: var(--code-cmt) !important; font-style: italic; }
+.cm-editor .cm-string  { color: var(--code-str) !important; }
+.cm-editor .cm-number  { color: var(--code-num) !important; }
+.cm-editor .cm-keyword { color: var(--code-kw) !important; }
+.cm-editor .cm-operator{ color: var(--code-op) !important; }
+.cm-editor .cm-def     { color: var(--code-fn) !important; }
+.cm-editor .cm-variableName { color: var(--code-var) !important; }
+.cm-editor .cm-propertyName { color: var(--code-var) !important; }
+.cm-editor .cm-attribute   { color: var(--code-var) !important; }
+.cm-editor .cm-punctuation,
+.cm-editor .cm-bracket,
+.cm-editor .cm-separator   { color: var(--code-punc) !important; }

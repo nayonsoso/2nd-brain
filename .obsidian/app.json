@@ -1,0 +1,17 @@
+{
+  "alwaysUpdateLinks": true,
+  "tabSize": 4,
+  "spellcheck": false,
+  "readableLineLength": true,
+  "strictLineBreaks": true,
+  "showInlineTitle": false,
+  "attachmentFolderPath": "reference/images",
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 60
+  }
+}

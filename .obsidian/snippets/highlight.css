@@ -1,0 +1,14 @@
+/* 읽기 모드에서 ==강조== 색상 */
+.markdown-preview-view mark {
+  background-color: #f9dd7c60 !important; /* 원하는 배경색 */
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+/* 편집 모드에서 ==강조== 색상 */
+.cm-highlight {
+  background-color: #f9dd7c60 !important; /* 동일 색상 */
+  border-radius: 3px;
+  padding: 0 2px;
+
+}

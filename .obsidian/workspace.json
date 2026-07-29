@@ -1,0 +1,253 @@
+{
+  "main": {
+    "id": "bef94b92b3d7e912",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0ebfb94251ed0b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60ce7378206876b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧠 brain/API/6-http-3xx-status-codes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "6-http-3xx-status-codes"
+            }
+          },
+          {
+            "id": "144d1116da0cd76f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🐟 reference/pricing-tool/API Design & REST Principles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "API Design & REST Principles"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd45a5f1156a7818",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b3cc6b15a3e4665",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97e29950626d1c33",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6dbee4e96db7ad9d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c56d8ada145c9a58",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5026054382324
+  },
+  "right": {
+    "id": "20ae3fef257d103c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2757a8f0ede778c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd4d37d409d5e8f2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "reference/pricint-tool/API Design & REST Principles.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for API Design & REST Principles"
+            }
+          },
+          {
+            "id": "b61347c89d902ba1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "`dmart_sync` job.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "`dmart_sync` job 의 나가는 링크"
+            }
+          },
+          {
+            "id": "c525b70252f59acf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "9922b275e166794c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "`dmart_sync` job.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "`dmart_sync` job 의 개요"
+            }
+          },
+          {
+            "id": "2dda4bd40ea18e08",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false,
+      "callout-manager:Insert Callout": false,
+      "webpage-html-export:Export as HTML": false
+    }
+  },
+  "active": "60ce7378206876b8",
+  "lastOpenFiles": [
+    "🧠 brain/API/5-http-2xx-status-codes.md",
+    "🧠 brain/API/6-http-3xx-status-codes.md",
+    "🧠 brain/API/4-http-status-codes.md",
+    "🧠 brain/API/3-rest-api.md",
+    "🧠 brain/API/2-types-of-api.md",
+    "CLAUDE.md",
+    "🧠 brain/API/8-http-5xx-status-codes.md",
+    "🧠 brain/API/9-idempotency-and-safety.md",
+    "🧠 brain/API/7-http-4xx-status-codes.md",
+    "🧠 brain/API/10-request-response-design.md",
+    "🧠 brain/API/11-api-versioning.md",
+    "🧠 brain/API/12-api-authentication-and-security.md",
+    "🧠 brain/API/13-api-performance.md",
+    "🧠 brain/API/14-rest-api-best-practices.md",
+    "🧠 brain/API/15-api-design-examples.md",
+    "🧠 brain/API/16-api-code-review-assignments.md",
+    "🧠 brain/API/1-what-is-api.md",
+    "🧠 brain/API/7-api-versioning.md",
+    "🐟 reference/pricing-tool/API Design & REST Principles.md",
+    "🧠 brain/API/8-api-authentication-and-security.md",
+    "🐟 reference/pricing-tool/Error Handling.md",
+    "🧠 brain/API/5-idempotency-and-safety.md",
+    "🧠 brain/API/6-request-response-design.md",
+    "🧠 brain/API/12-api-code-review-assignments.md",
+    "🧠 brain/HTTP/http-and-rest.md",
+    "🧠 brain/API/11-api-design-examples.md",
+    "Articles.base",
+    "API",
+    "🧠 brain",
+    "🌷 personal",
+    "🐟 reference/pricing-tool",
+    "🐟 reference",
+    "🧠 brain/HTTP",
+    "Untitled.canvas",
+    "🌷 personal/Diary",
+    "🧠 brain/API",
+    "🐟 reference/images/Pasted image 20260102162419.png",
+    "🐟 reference/images/Pasted image 20260102162335.png",
+    "🐟 reference/images/Pasted image 20260102162502.png",
+    "무제",
+    "무제.canvas",
+    "images/Pasted image 20260102135656.png",
+    "images/Pasted image 20251230111647.png",
+    "images/Pasted image 20251230110847.png",
+    "images/Pasted image 20251230110714.png",
+    "images/Pasted image 20251230105806.png",
+    "images/Pasted image 20251230105515.png",
+    "images/Pasted image 20251229120121.png"
+  ]
+}
