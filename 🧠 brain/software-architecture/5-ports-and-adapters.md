@@ -21,7 +21,7 @@ The adapter lives outside the core, in the infrastructure layer.
 Examples: a MySQL adapter, an external payment gateway (PG) adapter.
 
 ---
-## Inbound vs Outbound
+## Inbound vs Outbound Ports
 
 ==Inbound (driving)== ports are how the outside calls the core.
 For example, an HTTP controller calls a use case through an inbound port.
