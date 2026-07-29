@@ -1,0 +1,57 @@
+"card html.md"
+  s_5274ed6e328c13::t_cc811ab7526713 1-7
+"🧠 brain/API/10-request-response-design.md"
+  s_0e376f8d2bfa93::t_9bef3e72327297 1-177
+"🧠 brain/API/11-api-versioning.md"
+  s_0e376f8d2bfa93::t_6f6ef8d877f93d 1-104
+"🧠 brain/API/12-api-authentication-and-security.md"
+  s_0e376f8d2bfa93::t_05b878b90b342a 1-125
+"🧠 brain/API/13-api-performance.md"
+  s_0e376f8d2bfa93::t_a501e1cd251891 1-128
+"🧠 brain/API/14-rest-api-best-practices.md"
+  s_0e376f8d2bfa93::t_57dc637284d656 1-125
+"🧠 brain/API/15-api-design-examples.md"
+  s_0e376f8d2bfa93::t_7d577bdf21c390 1-170
+"🧠 brain/API/16-api-code-review-assignments.md"
+  s_0e376f8d2bfa93::t_7e5e600b4a76ee 1-170
+"🧠 brain/API/2-types-of-api.md"
+  s_0e376f8d2bfa93::t_5c250a09b2ff14 1-73
+"🧠 brain/API/3-rest-api.md"
+  s_0e376f8d2bfa93::t_875cc66562fb40 1-168
+"🧠 brain/API/9-idempotency-and-safety.md"
+  s_0e376f8d2bfa93::t_5216a83e753e4b 1-133
+"🧠 brain/HTTP/http-and-rest.md"
+  s_5274ed6e328c13::t_78c13faeedb7c8 1-72
+"🧠 brain/HTTP/http-headers.md"
+  s_5274ed6e328c13::t_ac03be91871f97 1-88
+"🧠 brain/HTTP/http-versions.md"
+  s_5274ed6e328c13::t_157192cee1d178 1-68
+"🧠 brain/HTTP/http-vs-https.md"
+  s_5274ed6e328c13::t_090675dbd67b4f 1-53
+"🧠 brain/HTTP/what-is-http.md"
+  s_5274ed6e328c13::t_1642f100ae8bc7 1-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "e53dd5fe39970ca30adc231f5c03a7752afa115e",
+  "prompts": {},
+  "sessions": {
+    "s_0e376f8d2bfa93": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "101f94ac-7d42-45e6-8711-931dd50d7d51",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "yeong-seo-na <yeongseo.na@deliveryhero.com>"
+    },
+    "s_5274ed6e328c13": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "37cdc908-1b69-40f9-88a3-d83d6a564157",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "yeong-seo-na <yeongseo.na@deliveryhero.com>"
+    }
+  }
+}
