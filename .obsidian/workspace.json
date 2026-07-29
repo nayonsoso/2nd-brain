@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 brain/API/6-http-3xx-status-codes.md",
+                "file": "🧠 brain/software-architecture/2-solid-principles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "6-http-3xx-status-codes"
+              "title": "2-solid-principles"
             }
           },
           {
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5026054382324
+    "width": 317.5026054382324
   },
   "right": {
     "id": "20ae3fef257d103c",
@@ -177,7 +177,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -201,46 +202,46 @@
   },
   "active": "60ce7378206876b8",
   "lastOpenFiles": [
-    "🧠 brain/API/5-http-2xx-status-codes.md",
-    "🧠 brain/API/6-http-3xx-status-codes.md",
-    "🧠 brain/API/4-http-status-codes.md",
-    "🧠 brain/API/3-rest-api.md",
-    "🧠 brain/API/2-types-of-api.md",
-    "CLAUDE.md",
-    "🧠 brain/API/8-http-5xx-status-codes.md",
-    "🧠 brain/API/9-idempotency-and-safety.md",
+    "🧠 brain/software-architecture/1-core-design-principles.md",
+    "🧠 brain/software-architecture/2-solid-principles.md",
+    "docs/superpowers/plans/2026-07-29-software-architecture-notes.md",
+    "docs/superpowers/specs/2026-07-29-pricing-tool-audit-findings.md",
+    "🧠 brain/software-architecture/12-tradeoffs-and-choosing.md",
+    "🧠 brain/software-architecture/11-ddd-building-blocks.md",
+    "🧠 brain/software-architecture/10-domain-driven-design.md",
+    "🧠 brain/software-architecture/8-hexagonal-architecture.md",
+    "🧠 brain/software-architecture/9-clean-architecture.md",
+    "🧠 brain/software-architecture/7-layered-architecture.md",
+    "🧠 brain/software-architecture/6-dto-and-mappers.md",
+    "🧠 brain/software-architecture/5-ports-and-adapters.md",
+    "🧠 brain/software-architecture/3-dependency-injection.md",
+    "🧠 brain/software-architecture/4-domain-vs-infrastructure.md",
+    "docs/superpowers/specs/2026-07-29-software-architecture-notes-design.md",
     "🧠 brain/API/7-http-4xx-status-codes.md",
-    "🧠 brain/API/10-request-response-design.md",
-    "🧠 brain/API/11-api-versioning.md",
-    "🧠 brain/API/12-api-authentication-and-security.md",
-    "🧠 brain/API/13-api-performance.md",
-    "🧠 brain/API/14-rest-api-best-practices.md",
-    "🧠 brain/API/15-api-design-examples.md",
-    "🧠 brain/API/16-api-code-review-assignments.md",
-    "🧠 brain/API/1-what-is-api.md",
-    "🧠 brain/API/7-api-versioning.md",
-    "🐟 reference/pricing-tool/API Design & REST Principles.md",
-    "🧠 brain/API/8-api-authentication-and-security.md",
-    "🐟 reference/pricing-tool/Error Handling.md",
-    "🧠 brain/API/5-idempotency-and-safety.md",
-    "🧠 brain/API/6-request-response-design.md",
-    "🧠 brain/API/12-api-code-review-assignments.md",
+    "🧠 brain/API/6-http-3xx-status-codes.md",
+    "🧠 brain/API/3-rest-api.md",
     "🧠 brain/HTTP/http-and-rest.md",
-    "🧠 brain/API/11-api-design-examples.md",
+    "CLAUDE.md",
+    "🧠 brain/HTTP/http-vs-https.md",
+    "🐟 reference/pricing-tool/Error Handling.md",
+    "🐟 reference/pricing-tool/Architecture.md",
+    "docs/superpowers/plans",
+    "🐟 reference/pricing-tool/API Design & REST Principles.md",
+    "docs/superpowers/specs",
+    "docs/superpowers",
+    "docs",
+    "🧠 brain/Untitled.md",
+    "🧠 brain/software-architecture",
+    "🧠 brain/API/9-idempotency-and-safety.md",
     "Articles.base",
     "API",
     "🧠 brain",
     "🌷 personal",
     "🐟 reference/pricing-tool",
-    "🐟 reference",
-    "🧠 brain/HTTP",
     "Untitled.canvas",
-    "🌷 personal/Diary",
-    "🧠 brain/API",
     "🐟 reference/images/Pasted image 20260102162419.png",
     "🐟 reference/images/Pasted image 20260102162335.png",
     "🐟 reference/images/Pasted image 20260102162502.png",
-    "무제",
     "무제.canvas",
     "images/Pasted image 20260102135656.png",
     "images/Pasted image 20251230111647.png",
