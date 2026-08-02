@@ -50,4 +50,7 @@ The function is the mapper — it converts that input into a domain object.
 
 ## Review History
 
--
+- 2026-08-02
+	- dto가 레이어간의 경계를 끊는 것이라고는 하지만..
+	  엔티티에서 특정한 것을 삭제했을 때 다른 곳까지 전파를 막아서 실수를 유발하기도 하는 듯.
+	  이런 실수는 어떻게 방지할 수 있나?

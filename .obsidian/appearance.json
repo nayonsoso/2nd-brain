@@ -3,7 +3,7 @@
     "panda-syntax-dark",
     "card"
   ],
-  "baseFontSize": 18,
+  "baseFontSize": 30,
   "cssTheme": "Minimal",
   "showRibbon": true,
   "nativeMenus": true,

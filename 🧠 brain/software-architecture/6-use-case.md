@@ -3,7 +3,7 @@
 # Use Case
 
 A ==use case== is an object that runs one application action.
-It lives just behind an inbound port.
+It lives **just behind an inbound port.**
 Think of it as the thing a controller calls to get work done.
 
 ---
@@ -12,7 +12,7 @@ Think of it as the thing a controller calls to get work done.
 A use case ==orchestrates== the core business logic for one action.
 For example: "create an order" or "cancel a booking".
 It does not hold business rules itself.
-It calls domain objects and outbound ports (like a repository) to get the job done.
+It **calls domain objects and outbound ports** (like a repository) to get the job done.
 
 ---
 ## Where It Sits
@@ -59,4 +59,4 @@ The name differs, but the job is the same: run one action, orchestrate the core.
 
 ## Review History
 
--
+- 2026-08-02
