@@ -15,7 +15,7 @@ This pattern is also called "Ports and Adapters" architecture.
 ```
         [ HTTP Adapter ]        [ CLI Adapter ]
                \                     /
-                \   (ports)          /
+                \   (ports)         /
               [    BUSINESS CORE    ]
                 /                   \
         [ Kafka Adapter ]      [ PG Adapter ]
@@ -57,4 +57,5 @@ The `PostgresOrderRepository` adapter lives outside the core and implements it.
 
 ## Review History
 
--
+- 2026-08-04
+

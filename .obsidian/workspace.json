@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 brain/software-architecture/7-dto-and-mappers.md",
+                "file": "🧠 brain/software-architecture/12-ddd-building-blocks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "7-dto-and-mappers"
+              "title": "12-ddd-building-blocks"
             }
           },
           {
@@ -201,7 +201,10 @@
   },
   "active": "60ce7378206876b8",
   "lastOpenFiles": [
+    "🧠 brain/software-architecture/11-domain-driven-design.md",
+    "🧠 brain/software-architecture/10-clean-architecture.md",
     "🧠 brain/software-architecture/9-hexagonal-architecture.md",
+    "🧠 brain/software-architecture/8-layered-architecture.md",
     "🧠 brain/software-architecture/7-dto-and-mappers.md",
     "🧠 brain/software-architecture/5-ports-and-adapters.md",
     "🧠 brain/software-architecture/6-use-case.md",
@@ -210,9 +213,6 @@
     "reference/images",
     "reference",
     "🧠 brain/software-architecture/6-use-case.md.tmp.1437.7b4a25a9335b",
-    "🧠 brain/software-architecture/8-layered-architecture.md",
-    "🧠 brain/software-architecture/10-clean-architecture.md",
-    "🧠 brain/software-architecture/11-domain-driven-design.md",
     "🧠 brain/software-architecture/12-ddd-building-blocks.md",
     "🧠 brain/software-architecture/13-tradeoffs-and-choosing.md",
     "🧠 brain/software-architecture/3-dependency-injection.md",
