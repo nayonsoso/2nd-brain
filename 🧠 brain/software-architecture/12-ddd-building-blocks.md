@@ -46,10 +46,11 @@ order.ChangeQuantity(itemID, 100)
 ```
 
 The reason is simple.
-==Only the root knows the rules of the whole aggregate.==
+==Only the root knows the rules of the whole aggregate.===
 Say an order cannot cost more than the limit, and a shipped order cannot change.
 `Items[0].Quantity = 100` checks neither rule.
-An OrderItem only knows itself. It does not know the total price or the ship status.
+An OrderItem only knows itself. 
+It does not know the total price or the ship status.
 
 ```go
 type Order struct { // aggregate root
@@ -122,4 +123,4 @@ It is where DDD meets ports and adapters: the repository is a port.
 
 ## Review History
 
--
+- 2026-08-05
