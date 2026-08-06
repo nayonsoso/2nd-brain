@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠 brain/software-architecture/12-ddd-building-blocks.md",
+                "file": "🧠 brain/software-architecture/13-tradeoffs-and-choosing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "12-ddd-building-blocks"
+              "title": "13-tradeoffs-and-choosing"
             }
           }
         ]
@@ -186,13 +186,13 @@
   },
   "active": "144d1116da0cd76f",
   "lastOpenFiles": [
+    "🧠 brain/software-architecture/12-ddd-building-blocks.md",
     "🧠 brain/software-architecture/13-tradeoffs-and-choosing.md",
     "AGENTS.md",
     "🧠 brain/software-architecture/9-hexagonal-architecture.md",
     "🧠 brain/software-architecture/8-layered-architecture.md",
     "🧠 brain/software-architecture/7-dto-and-mappers.md",
     "🧠 brain/software-architecture/6-use-case.md",
-    "🧠 brain/software-architecture/12-ddd-building-blocks.md",
     "🧠 brain/software-architecture/11-domain-driven-design.md",
     "🧠 brain/software-architecture/10-clean-architecture.md",
     "reference/images/Pasted image 20260802094115.png",
