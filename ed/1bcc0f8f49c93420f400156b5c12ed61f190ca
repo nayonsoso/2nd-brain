@@ -1,0 +1,31 @@
+"🧠 brain/go-concurrency/7-background-task-pattern.md"
+  s_b3d6b621b7004f::t_b979aaa0c217b3 1-167
+"🧠 brain/go-concurrency/1-goroutines-and-channels.md"
+  s_b3d6b621b7004f::t_0e6499381c96b8 1-173
+"🧠 brain/go-concurrency/2-closures.md"
+  s_b3d6b621b7004f::t_a86def85690278 1-162
+"🧠 brain/go-concurrency/3-worker-pool.md"
+  s_b3d6b621b7004f::t_f19e4ca1175c38 1-194
+"🧠 brain/go-concurrency/5-go-context.md"
+  s_b3d6b621b7004f::t_a0b8fa08c2880b 1-161
+"🧠 brain/go-concurrency/4-fire-and-forget.md"
+  s_b3d6b621b7004f::t_ab76c24f37eb6d 1-134
+"🧠 brain/go-concurrency/6-detaching-context.md"
+  s_b3d6b621b7004f::t_c6b69c84b70a36 1-169
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.15",
+  "base_commit_sha": "ed1bcc0f8f49c93420f400156b5c12ed61f190ca",
+  "prompts": {},
+  "sessions": {
+    "s_b3d6b621b7004f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "62434be1-88ed-41ed-bc1f-975c314b9c0b",
+        "model": "claude-opus-5"
+      },
+      "human_author": "yeong-seo-na <yeongseo.na@deliveryhero.com>"
+    }
+  }
+}
